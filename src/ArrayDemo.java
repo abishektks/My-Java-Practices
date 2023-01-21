@@ -123,6 +123,61 @@ public class ArrayDemo {
 
         System.out.println(Arrays.deepToString(marks3));
 
-        ///
+        // Multi D Array Another //
+
+        int[][][] mark3= {{{95,98,100,100,100},{95,98,100,100,100},{95,98,100,100,100}},{{95,98,100,100,100},{95,98,100,100,100},{95,98,100,100,100}}};
+
+        System.out.println(Arrays.deepToString(mark3));
+
+
+
+        /// 2D Array with 4 Different Sizes ///
+
+        int[][] num1 = new int[4][];
+
+        num1[0]= new int[2]; // num[4][2]
+        num1[1]= new int[4]; // num[4][4]
+        num1[2]= new int[6]; // num[4][6]
+        num1[3]= new int[8]; // num[4][8]
+
+        // num[4][2]
+        num1[0][0] = 95;
+        num1[0][1] = 98;
+
+        // num[4][4]
+        num1[1][0] = 95;
+        num1[1][1] = 98;
+        num1[1][2] = 95;
+        num1[1][3] = 98;
+
+        // num[4][6]
+        num1[2][0] = 95;
+        num1[2][1] = 98;
+        num1[2][2] = 95;
+        num1[2][3] = 98;
+        num1[2][4] = 98;
+        num1[2][5] = 98;
+
+        // num[4][8]
+        num1[3][0] = 95;
+        num1[3][1] = 98;
+        num1[3][2] = 95;
+        num1[3][3] = 98;
+        num1[3][4] = 95;
+        num1[3][5] = 98;
+        num1[3][6] = 95;
+        num1[3][7] = 98;
+
+        System.out.println(Arrays.deepToString(num1));
+
+
+
+        /// 3D Array with 4 Different Sizes /// *************** Please Implement your Own ***************
+
+        int[][][] num2 = new int[2][4][];
+
+        num2[0] = new int[][]{new int[3]};
+
+
     }
 }
