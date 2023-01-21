@@ -18,7 +18,7 @@ public class ArrayDemo {
         int[] mark = {87,95,100,100,100};
 
         mark[1]=98;
-        //mark[7]=92; // You can Assign more value than initilaizer.
+        //mark[7]=92; // You can Assign more value than initializer.
 
         System.out.println(Arrays.toString(marks));
         System.out.println(Arrays.toString(mark));
@@ -59,12 +59,67 @@ public class ArrayDemo {
 
         System.out.println(Arrays.deepToString(marks2));
 
-        //2D Array Amother//
+        //2D Array Another//
 
         int[][] mark2 = {{92,53,24,242,12},{12,341,341,241,12}};
 
         System.out.println(Arrays.deepToString(mark2));
 
+        /// Multi D Array ///
 
+        int[][][] marks3 = new int[2][4][5];
+
+        // 1st Table
+        marks3[0][0][0] = 95;
+        marks3[0][0][1] = 98;
+        marks3[0][0][2] = 100;
+        marks3[0][0][3] = 100;
+        marks3[0][0][4] = 100;
+
+        marks3[0][1][0] = 95;
+        marks3[0][1][1] = 95;
+        marks3[0][1][2] = 95;
+        marks3[0][1][3] = 95;
+        marks3[0][1][4] = 95;
+
+        marks3[0][2][0] = 95;
+        marks3[0][2][1] = 95;
+        marks3[0][2][2] = 95;
+        marks3[0][2][3] = 95;
+        marks3[0][2][4] = 95;
+
+        marks3[0][3][0] = 95;
+        marks3[0][3][1] = 95;
+        marks3[0][3][2] = 95;
+        marks3[0][3][3] = 95;
+        marks3[0][3][4] = 95;
+
+        // 2nd Table
+        marks3[1][0][0] = 95;
+        marks3[1][0][1] = 95;
+        marks3[1][0][2] = 95;
+        marks3[1][0][3] = 95;
+        marks3[1][0][4] = 95;
+
+        marks3[1][1][0] = 95;
+        marks3[1][1][1] = 95;
+        marks3[1][1][2] = 95;
+        marks3[1][1][3] = 95;
+        marks3[1][1][4] = 95;
+
+        marks3[1][2][0] = 95;
+        marks3[1][2][1] = 95;
+        marks3[1][2][2] = 95;
+        marks3[1][2][3] = 95;
+        marks3[1][2][4] = 95;
+
+        marks3[1][3][0] = 95;
+        marks3[1][3][1] = 95;
+        marks3[1][3][2] = 95;
+        marks3[1][3][3] = 95;
+        marks3[1][3][4] = 95;
+
+
+        System.out.println(Arrays.deepToString(marks3));
     }
 }
