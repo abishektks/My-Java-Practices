@@ -13,6 +13,8 @@ public class ArrayDemo {
 
         marks[1] = 95;
 
+        System.out.println(Arrays.toString(marks));
+
         // Another Method for 1D Array
 
         int[] mark = {87,95,100,100,100};
@@ -20,7 +22,6 @@ public class ArrayDemo {
         mark[1]=98;
         //mark[7]=92; // You can Assign more value than initializer.
 
-        System.out.println(Arrays.toString(marks));
         System.out.println(Arrays.toString(mark));
 
         ///2D Array ///
@@ -121,5 +122,7 @@ public class ArrayDemo {
 
 
         System.out.println(Arrays.deepToString(marks3));
+
+        ///
     }
 }
