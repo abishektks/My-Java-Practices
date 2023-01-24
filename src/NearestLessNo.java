@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class NearestNo {
+public class NearestLessNo {
 
     public static void main(String[] args){
 
